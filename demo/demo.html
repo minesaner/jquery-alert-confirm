@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>示例</title>
+	<script src="http://apps.bdimg.com/libs/jquery/1.9.1/jquery.min.js"></script>
+	<script src="../src/alert-confirm.js"></script>
+	<script src="js.js"></script>
+	<link rel="stylesheet" href="../src/alert-confirm.css">
+	<link rel="stylesheet" href="css.css">
+</head>
+<body>
+	<div class="alert-form">
+		<div>$.alert 与 $.confirm</div>
+		<div>
+			<input type="text" name="" id="header" value="弹框提示头"/>
+			<input type="text" name="" id="text" value="弹框内容"/>
+		</div>
+		<div class="buttons">
+			<div id="alert" class="button">alert</div>
+			<div id="confirm" class="button">confirm</div>
+			<hr>
+			<div>alertconfirm 方法</div>
+			<div class="button" id="page">写在页面上</div>
+			<div class="button" id="js">js 创建</div>
+		</div>
+	</div>
+	
+	
+	<div class="ms-alert hidden">
+		<div class="ms-alert-body">
+			<div class="ms-alert-header">header</div>
+			<div class="ms-alert-content">content</div>
+			<div class="ms-alert-buttons">
+				<div class="ms-alert-button confirm">confirm</div>
+				<div class="ms-alert-button cancel">cancel</div>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
